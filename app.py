@@ -5,7 +5,7 @@ import pandas as pd
 
 # load model & scaler
 model = pickle.load(open("diabetes_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+
 
 st.set_page_config(page_title="Diabetes Predictor", layout="centered")
 
